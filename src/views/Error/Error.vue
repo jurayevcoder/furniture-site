@@ -20,7 +20,7 @@
           </p>
           <router-link
             to="/"
-            class="inline-flex text-white bg-[#FF8C00] hover:bg-[#2A2A2A] hover:text-[#FF8C00] border-2 border-[#FF8C00] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center focus:ring-[#FF8C00] my-4"
+            class="inline-flex text-white bg-[#3B3B98] hover:bg-[#2A2A2A] hover:text-[#3B3B98] border-2 border-[#3B3B98] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center focus:ring-[#3B3B98] my-4"
             >Back to Homepage</router-link
           >
         </div>

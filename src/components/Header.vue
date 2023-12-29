@@ -10,16 +10,16 @@
                 <div class="hidden lg:block">
                     <ul class="flex items-center gap-8 text-[16px] font-bold">
                         <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
-                            <a href="#home">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
-                            <a href="#about">About Us</a>
+                            <a href="/about">About Us</a>
                         </li>
                         <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
-                            <a href="#project">Catalog</a>
+                            <a href="/catalog">Catalog</a>
                         </li>
                         <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
-                            <a href="#price">Contact</a>
+                            <a href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -30,16 +30,16 @@
                     <ul class="absolute bg-[#A7C5BD] w-[60%] sm:w-[40%] h-[100vh] right-0 top-[76px] text-white font-bold text-[18px]"
                         :class="menu ? 'bloc' : 'hidden'">
                         <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
-                            <a href="#home" @click="closeMenu">Home</a>
+                            <a href="/" @click="closeMenu">Home</a>
                         </li>
                         <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
-                            <a href="#about" @click="closeMenu">About Us</a>
+                            <a href="/about" @click="closeMenu">About Us</a>
                         </li>
                         <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
-                            <a href="#project" @click="closeMenu">Catalog</a>
+                            <a href="/catalog" @click="closeMenu">Catalog</a>
                         </li>
                         <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
-                            <a href="#price" @click="closeMenu">Contact</a>
+                            <a href="/contact" @click="closeMenu">Contact</a>
                         </li>
                     </ul>
                 </div>
