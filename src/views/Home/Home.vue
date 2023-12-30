@@ -208,7 +208,7 @@
         <div class="container mx-auto p-5">
             <div class="flex justify-between items-center mb-5">
                 <h1 class="text-[24px] text-[#3B3B98] font-semibold">Catalog</h1>
-                <a href="#" class="text-blue-500 hover:text-blue-700 hover:border-b border-blue-700">View catalog >></a>
+                <a href="/catalog" class="text-blue-500 hover:text-blue-700 hover:border-b border-blue-700">View catalog >></a>
             </div>
             <div>
 
