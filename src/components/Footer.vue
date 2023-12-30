@@ -1,9 +1,9 @@
 <template>
-    <footer class="hidden lg:block bg-[#A7C5BD] w-full">
+    <footer class=" bg-[#A7C5BD] w-full">
         <div class="bg-white py-10">
             <div class="container mx-auto px-5">
-                <div class="flex items-center justify-between">
-                    <div class="flex flex-col justif-center gap-3">
+                <div class="md:flex md:items-center md:justify-between">
+                    <div class="flex flex-col justif-center gap-3 mb-5 md:mb-0">
                         <a href="/" class="flex items-center gap-2">
                             <h1 class="text-[#3B3B98] text-2xl font-bold">Logo</h1>
                         </a>
@@ -20,7 +20,7 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col justify-center gap-3">
+                    <div class="flex flex-col justify-center gap-3 mb-5 md:mb-0">
                         <h1 class="text-[#1C1C1C]">About</h1>
                         <div class="text-[#8B96A5] flex flex-col justify-center gap-1">
                             <a href="#" class="hover:underline">About Us</a>
@@ -30,7 +30,7 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col justify-center gap-3">
+                    <div class="flex flex-col justify-center gap-3 mb-5 md:mb-0">
                         <h1 class="text-[#1C1C1C]">Partnership</h1>
                         <div class="text-[#8B96A5] flex flex-col justify-center gap-1">
                             <a href="#" class="hover:underline">About Us</a>
@@ -40,7 +40,7 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col justify-center gap-3">
+                    <div class="flex flex-col justify-center gap-3 mb-5 md:mb-0">
                         <h1 class="text-[#1C1C1C]">Information</h1>
                         <div class="text-[#8B96A5] flex flex-col justify-center gap-1">
                             <a href="#" class="hover:underline">Help Center</a>
