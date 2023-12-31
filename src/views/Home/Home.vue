@@ -158,7 +158,8 @@
                 </div>
             </div>
             <div class="flex flex-col lg:flex-row gap-5">
-                <div data-aos="fade-up" data-aos-duration="2000" v-for="news in newItemsLink" :key="news.id" class="w-full lg:w-[25%] border rounded-lg p-5">
+                <div data-aos="fade-up" data-aos-duration="2000" v-for="news in newItemsLink" :key="news.id"
+                    class="w-full lg:w-[25%] border rounded-lg p-5">
                     <div class="flex items-center justify-center bg-white rounded-lg mb-5 ">
                         <img :src="news.img" alt="" class="w-[500px] h-[250px] rounded-lg">
                     </div>
@@ -194,7 +195,8 @@
                 </div>
             </div>
             <div class="flex flex-col lg:flex-row gap-5">
-                <div data-aos="fade-up" data-aos-duration="2000" v-for="news in newItemsLink" :key="news.id" class="w-full lg:w-[25%] border rounded-lg p-5">
+                <div data-aos="fade-up" data-aos-duration="2000" v-for="news in newItemsLink" :key="news.id"
+                    class="w-full lg:w-[25%] border rounded-lg p-5">
                     <div class="flex items-center justify-center bg-white rounded-lg mb-5 ">
                         <img :src="news.img" alt="" class="w-[500px] h-[250px] rounded-lg">
                     </div>
@@ -303,6 +305,8 @@ import AOS from 'aos';
 AOS.init();
 const recItemsLink = ref(recItemsLinks);
 const newItemsLink = ref(newItemsLinks);
+const modal = ref(false);
+const toggleModal = () => (modal.value = !modal.value);
 </script>
 
 <style lang="scss" scoped></style>

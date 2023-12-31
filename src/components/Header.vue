@@ -10,19 +10,19 @@
                 <div class="hidden lg:block">
                     <ul class="flex items-center gap-8 text-[16px] font-bold">
                         <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
-                            <a href="/">Home</a>
+                            <router-link to="/">Home</router-link>
                         </li>
                         <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
-                            <a href="/about">About Us</a>
+                            <router-link to="/about">About Us</router-link>
                         </li>
                         <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
-                            <a href="/catalog">Catalog</a>
+                            <router-link to="/catalog">Catalog</router-link>
                         </li>
                         <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
-                            <a href="/contact">Contact</a>
+                            <router-link to="/contact">Contact</router-link>
                         </li>
                         <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
-                            <a href="/cart">My Cart</a>
+                            <router-link to="/cart">My Cart</router-link>
                         </li>
                     </ul>
                 </div>
@@ -33,19 +33,19 @@
                     <ul class="absolute bg-[#A7C5BD] w-[60%] sm:w-[40%] h-[100vh] right-0 top-[76px] text-white font-bold text-[18px]"
                         :class="menu ? 'bloc' : 'hidden'">
                         <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
-                            <a href="/" @click="closeMenu">Home</a>
+                            <router-link to="/" @click="closeMenu">Home</router-link>
                         </li>
                         <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
-                            <a href="/about" @click="closeMenu">About Us</a>
+                            <router-link to="/about" @click="closeMenu">About Us</router-link>
                         </li>
                         <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
-                            <a href="/catalog" @click="closeMenu">Catalog</a>
+                            <router-link to="/catalog" @click="closeMenu">Catalog</router-link>
                         </li>
                         <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
-                            <a href="/contact" @click="closeMenu">Contact</a>
+                            <router-link to="/contact" @click="closeMenu">Contact</router-link>
                         </li>
                         <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
-                            <a href="/cart" @click="closeMenu">My Cart</a>
+                            <router-link to="/cart" @click="closeMenu">My Cart</router-link>
                         </li>
                     </ul>
                 </div>
@@ -80,11 +80,11 @@ window.addEventListener("scroll", function () {
 }
 
 .headerText .textLi {
-    color: #3B3B98;
+    color: #A7C5BD;
     transition: 1s;
 }
 
 .headerText .textLi:hover {
-    border-bottom: 1px solid #3B3B98;
+    border-bottom: 1px solid #A7C5BD;
 }
 </style>
