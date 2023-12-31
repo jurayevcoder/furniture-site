@@ -55,9 +55,9 @@
                         corrupti.
                     </p>
 
-                    <img
+                    <img data-aos="fade-right" data-aos-duration="2000"
                         src="https://assets.asaxiy.uz/product/items/desktop/b4f8ecb2fa5cdb60ee2ff269aed3bf86202208281536023498550BJLtABC8.jpg.webp">
-                    <p class="text-[16px] text-[#1F2A38] mt-5">
+                    <p data-aos="fade-up" data-aos-duration="2000" class="text-[16px] text-[#1F2A38] mt-5">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Accusantium cum officiis tempora iusto
                         architecto dolore magnam, harum ut ducimus, quia eveniet! Doloribus animi repellendus autem nostrum
@@ -78,7 +78,9 @@
 </template>
 
 <script setup>
+import AOS from 'aos';
 
+AOS.init();
 </script>
 
 <style lang="scss" scoped></style>
