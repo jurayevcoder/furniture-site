@@ -21,6 +21,9 @@
                         <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
                             <a href="/contact">Contact</a>
                         </li>
+                        <li class="textLi p-2 text-[#E2E8F0] hover:text-white">
+                            <a href="/cart">My Cart</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="lg:hidden reletive">
@@ -40,6 +43,9 @@
                         </li>
                         <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
                             <a href="/contact" @click="closeMenu">Contact</a>
+                        </li>
+                        <li class="p-2 pl-5 text-[#E2E8F0] hover:text-white mb-5">
+                            <a href="/cart" @click="closeMenu">My Cart</a>
                         </li>
                     </ul>
                 </div>
